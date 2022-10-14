@@ -8,16 +8,16 @@ interface Route {
 
 const routes: Route[] = [
   {
-    label: "Home",
+    label: "Dogos",
     path: "/",
   },
   {
-    label: "Contato",
-    path: "/contact",
+    label: "Cadastro",
+    path: "/register",
   },
   {
-    label: "Sobre nós",
-    path: "/about",
+    label: "Contador",
+    path: "/counter",
   },
 ];
 

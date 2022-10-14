@@ -1,7 +1,7 @@
 {
-  "name": "qodeless-desafio-03-navegacao",
+  "name": "qodeless-desafio-07-rotas",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.8",
+    "axios": "^1.1.2",
     "classnames": "^2.3.2",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
+    "react-hook-form": "^7.37.0",
+    "react-router-dom": "^6.4.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
